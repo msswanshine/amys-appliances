@@ -1,0 +1,14 @@
+.App {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+}
