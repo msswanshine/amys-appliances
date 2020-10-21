@@ -24,9 +24,11 @@ const product = css`
 
     .product__price {
       background-color: #efefef;
+      border: 1px solid #cdcdcd;
       border-radius: 3px;
       display: inline;
-      font-size: 12px;
+      font-size: 14px;
+      font-weight: 700;
       padding: 4px 8px;
     }
   }
