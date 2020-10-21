@@ -4,25 +4,8 @@ const product = css`
   background-color: white;
   border: 1px solid #cdcdcd;
   border-radius: 5px;
-  flex: 0 1 100%;
   list-style: none;
   margin-bottom: 20px;
-
-  @media (min-width: 400px) {
-    flex: 0 1 calc(50% - 20px);
-  }
-
-  @media (min-width: 768px) {
-    flex: 0 1 calc(33.3% - 20px);
-  }
-
-  @media (min-width: 992px) {
-    flex: 0 1 calc(25% - 20px);
-  }
-
-  @media (min-width: 1200px) {
-    flex: 0 1 calc(20% - 20px);
-  }
 
   .product__image {
     border-bottom: 1px solid #cdcdcd;

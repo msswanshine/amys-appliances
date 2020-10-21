@@ -29,13 +29,13 @@ export default function Header({ count, total, currentPage, totalPages }) {
 
         <div className="product-count">
           <div className="product-count__left">
-            {`${count} of ${total} items showing`}
+            {(count && total) ? `${count} of ${total} items showing` : ''}
           </div>
           <div className="product-count__right">
-            {`Page ${currentPage} of ${totalPages}`}
+            {(currentPage && totalPages) ? `Page ${currentPage} of ${totalPages}` : ''}
           </div>
         </div>
-        
+
       </div>
     </div>
   )

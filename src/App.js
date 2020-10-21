@@ -33,7 +33,7 @@ function App() {
         totalPages={data.totalPages}
       />
       <ProductsList
-        products={ data.products }
+        products={data.products}
       />
     </div>
   );
